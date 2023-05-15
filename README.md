@@ -37,8 +37,11 @@ The BL will receive the bin file and replies with ACK for each group of byte, if
 ##### NOTE
 the user have to vaildate the application binary file first and set the offset of the code using the linker script or keil options and the IVT using (SCB->VTOR) register before generating the Application binary file out the Application will always jump the BL IVT not its IVT.
 <a href="https://ibb.co/Fzjctb4"><img src="https://i.ibb.co/fHPZ7Yd/1.png" alt="1" border="0"></a>
+
 <a href="https://ibb.co/BCDYYM5"><img src="https://i.ibb.co/DRXjj2H/2.png" alt="2" border="0"></a>
+
 <a href="https://ibb.co/NTGv7dp"><img src="https://i.ibb.co/DrjJLHk/3.png" alt="3" border="0"></a>
+
 Setting the binary file to write it to 0x08008000 address.
 
 ##### 8~11 For future updates ISA
