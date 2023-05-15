@@ -3,10 +3,10 @@
 UART based bootloader for STM32F103C8 target MCU that support multiple commands to access and control the flash memory of the MCU
 You can find the BL files only in "Bootloader Files" folder, the host script in "Host Script" folder and the whole project using Keil IDE in "Project" folder
 ## Tools Used
-1- StTM32 CubeMX
-2- Keil uVision5 IDE
-3- Python Host Script
-4- STM32 ST-LINK Utility
+1- StTM32 CubeMX <br>
+2- Keil uVision5 IDE <br>
+3- Python Host Script <br>
+4- STM32 ST-LINK Utility <br>
 
 ## Usage
 
