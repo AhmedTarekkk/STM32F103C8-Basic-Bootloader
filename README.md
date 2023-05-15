@@ -8,7 +8,7 @@ You can find the BL files only in "Bootloader Files" folder, the host script in 
 3- Python Host Script <br>
 4- STM32 ST-LINK Utility <br>
 
-## Usage
+## Usage and Host Commands
 
 The Python Host (I din't implelmet it, i just edited afew thing to use it with stm32f103 instead of stm32f07 )
 when you run it, it will ask for the COM Port that the USB to TTL module connected to, then it will list the supported commands by the host and their numbers.
