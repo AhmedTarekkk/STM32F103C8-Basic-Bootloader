@@ -47,7 +47,7 @@ Setting the binary file to write it to 0x08008000 address.
 ##### 8~11 For future updates ISA
 ­
 ##### 12- Change the flash read protection level
-We have only two levels for stm32f103 MCU:
+We have only two levels for stm32f103 MCU:<br>
 level 0 -> default. <br>
 level 1 -> Disable the read . <br>
 Note : For level 1 we can't use the debugger to connect our MCU as it will always trigger the HardFault handler so we need to back to level 0 to be able to debug the code and read the flash.
